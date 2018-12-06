@@ -9,12 +9,12 @@ Funcionalidades desenvolvidas,
 - Visualização de Perfil (e tweets)
 
 1 - Execução do webservice
-* primeiro e preciso inicializar o mongo (em terminal executar "mongod")
-cd server
-yarn (instalar dependencias)
-yarn dev (inicializa serviço)
+* primeiro e preciso inicializar o mongo (em terminal executar "mongod");
+cd server;
+yarn (instalar dependencias);
+yarn dev (inicializa serviço);
 
 2 - Execução da aplicação Web
-cd web
-yarn (assim como no serviço)
-yarn start (executa aplicação)
+cd web;
+yarn (assim como no serviço);
+yarn start (executa aplicação);
