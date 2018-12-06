@@ -1,0 +1,124 @@
+/* General Styling */
+
+.centre-block {
+  text-align: center;
+}
+
+.profile-image {
+  background: #eeeeee;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.profile-pic-container {
+  margin-top: 20px;
+}
+
+.tweet-container {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-left-color: #0275d8;
+  border-radius: 3px;
+}
+
+.tweet-user-name {
+  font-size: 18pt;
+  color: #337ab7;
+  cursor: pointer;
+}
+
+/* Navbar Styling */
+.navbar-default {
+  background-color: #0275d8;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(202, 199, 199);
+}
+
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: rgb(202, 199, 199);
+}
+
+/* Responsive nav styling */
+.responsive-btn { display: none; }
+.responsive-nav { display: none }
+.responsive  { display: none }
+
+@media (max-width: 767px) {
+  .responsive-btn {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .responsive {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .navbar-header {
+    width: 70%;
+    float: left;
+  }
+
+  .responsive-nav {
+    margin-top: 50px;
+    display: block;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .responsive-nav li {
+    border-bottom: 1px solid rgba(234, 234, 234, 0.15);
+    padding: 5px;
+    text-align: center;
+  }
+
+  .responsive-nav li:last-child {
+    border-bottom: none;
+  }
+
+  .responsive-nav li:first-child {
+    border-top: 1px solid rgba(234, 234, 234, 0.15);
+  }
+
+  .responsive-nav li:hover {
+    background: rgba(51, 122, 183, 0.09);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .responsive-nav li a:hover {
+    text-decoration: none;
+    color: rgb(202, 199, 199);
+  }
+
+  .responsive-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
